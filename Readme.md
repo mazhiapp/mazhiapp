@@ -9,13 +9,11 @@
 - 5.可以详细记录每匹马的质量用药情况(如:353这匹马于5月14日因腹痛使用了安痛定等药物，用量5毫升，下午3点 50用药)
 - 6.与马房内摄像头相连，可实时观测马匹状态
 
-## 文档
+## 快速跳转
 
-- [**需求文档**](./需求文档.md)
-
-- [**UI设计参考**](./UI设计参考.md)
+- **[所有文档目录](./doc)**
 
 ## LICENSE
 
-                    GNU GENERAL PUBLIC LICENSE
-                       Version 3, 29 June 2007
+    GNU GENERAL PUBLIC LICENSE
+    Version 3, 29 June 2007
