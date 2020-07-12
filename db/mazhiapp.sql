@@ -27,7 +27,7 @@ CREATE TABLE `horse` (
   `name` varchar(32) NOT NULL COMMENT '马的名称',
   `images` varchar(255) DEFAULT NULL COMMENT '马的图片，多张图片以","隔开',
   `breed` varchar(32) DEFAULT NULL COMMENT '马的品种',
-  `age` tinyint(4) DEFAULT NULL COMMENT '马的年龄',
+  `birth` char(20) DEFAULT NULL COMMENT '出生年月日',
   `info` varchar(255) DEFAULT NULL COMMENT '马的介绍',
   `status_health` tinyint(4) NOT NULL DEFAULT 0 COMMENT '马的健康状态 0健康 1生病 2死亡',
   `status_activity` tinyint(4) NOT NULL COMMENT '马的活动状态 0空闲 1使用中',
@@ -337,7 +337,7 @@ CREATE TABLE `user` (
   `email` varchar(64) DEFAULT NULL COMMENT '电子邮箱',
   `avatar` varchar(255) DEFAULT NULL COMMENT '头像',
   `name` varchar(32) DEFAULT NULL COMMENT '姓名',
-  `age` tinyint(4) DEFAULT NULL COMMENT '年龄',
+  `birth` char(20) DEFAULT NULL COMMENT '出生年月日',
   `sex` tinyint(4) DEFAULT NULL COMMENT '性别 0 男 1女 2 中性',
   `phone_number` varchar(11) DEFAULT NULL COMMENT '手机号',
   `affiliation` varchar(255) DEFAULT NULL COMMENT '所属集体',
@@ -370,4 +370,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2020-07-11  1:11:42
+-- Dump completed on 2020-07-12  1:34:55
